@@ -140,7 +140,7 @@ nav a:hover{
 .skills{
     display: flex;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
     justify-content: space-around;
 }
 .skills img{
@@ -213,11 +213,18 @@ nav a:hover{
 .contact-img{
     width: 49%;
     text-align: center;
+   
 }
 .contact-img img{
     width: 80%;
     border-radius: 20px;
+     transition: all 1s;
 }
+.contact-img img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
 .contact button{
     margin-top: 10px;
     padding: 7px 30px;
