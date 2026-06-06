@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <!-- Bootstrap Css  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Custom Css  -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -15,23 +18,30 @@
     </nav>
 
     <!-- video box  -->
-    <div class="main-video-box" >
-        <video class="video-main" src="./video/office.mp4" autoplay muted loop></video>
-        <div class="video-content">
-            <div>
-                <h2>Hy! i'am <span class="ibrar">Ibrar Ali</span></h2>
-                <p>Freelance <span>UI/UX Designer & Frontend Developer</span>. I design and build digital products that people love to use — fast, clean, and accessible.</p>
+    <div class="main-video-box container-fluid" >
+        <div class="row">
+            <div class="col col-12">
+                <video class="video-main" src="./video/office.mp4" autoplay muted loop></video>
+                <div class="video-content ">
+                    <div>
+                        <h2>Hy! i'am <span class="ibrar">Ibrar Ali</span></h2>
+                        <p>Freelance <span>UI/UX Designer & Frontend Developer</span>. I design and build digital products that people love to use — fast, clean, and accessible.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <!-- About Section  -->
 
-    <div class="about" id="about">
-        <div class="about-picture">
-            <img src="./image/about.jpg" alt="">
-        </div>
-        <div class="about-content">
+    <div class="about container-fluid" id="about">
+
+        <div class="row">
+            <div class="about-picture col col-12 col-md-6">
+                <img src="./image/about.jpg" alt="">
+            </div>
+
+        <div class="about-content  col col-12 col-md-6">
             <div>
                 <h2><span>Little Bit About Me</span></h2>
                 <p>
@@ -41,6 +51,8 @@
                 </p>
                 <a href="https://github.com/ibrarmughal2989">My Github</a>
             </div>
+        </div>
+        
         </div>
     </div>
 
